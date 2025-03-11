@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #0073e6;
+    background: #4940be;
     color: white;
     padding: 20px;
 }
@@ -43,4 +43,16 @@ footer {
     color: white;
     padding: 10px;
     position: relative;
+}
+
+#about{
+    max-width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+}
+
+#about > p{
+    font-size: 1.2rem;
 }
